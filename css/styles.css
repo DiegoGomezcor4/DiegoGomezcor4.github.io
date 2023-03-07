@@ -210,27 +210,15 @@ main .social-icons #youtube {
 /* estilos del formulario */
 
 .form-contact {
+    position: absolute;
     background: #FFF;
     width: 400px;
     position: absolute;
-    top: 190%;
-    left: 40%;
+    top: 86%;
+    left: 55%;
     box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
   }
   
-  header {
-    width: 100%;
-    background: #ff165d;
-    overflow: hidden;
-    color: white;
-  }
-  
-  header span {
-    font-size: 100px;
-    display: block;
-    text-align: center;
-    padding: 2.5rem;
-  }
   
   .contact {
     padding: .8rem;
@@ -271,3 +259,52 @@ main .social-icons #youtube {
     cursor: pointer;
   
   }
+
+  /* Estilos del texto animado: */
+
+  .contenedor-texto {
+    background: #ff165d;
+    border-color: #c99806;
+    border-width: medium;
+    border-style: solid;
+    margin: 10px;
+    padding: 20px;
+    padding-left: 38%;
+    border-radius: 50px;
+
+}
+
+.contenedor-texto .titulo {
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 40px;
+    color: #eeeeee;
+}
+
+.contenedor-texto .lenguaje {
+    font-weight: bold;
+    color: #c99806;
+    font-style: normal;
+}
+
+
+.btn-link {
+    display: inline-block;
+    padding: 10px 30px;
+   border-radius: 100px;
+    margin-right: 10px;
+    text-decoration: none;
+    background: #f2f2f2;
+}
+
+.btn-link:hover,
+.btn-link.activo {
+   color: #fff;
+   background: #25D366;
+}
+
+/* boton de mas informacion */
+#demo {
+    display: none;
+}
+

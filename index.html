@@ -10,11 +10,29 @@
     </head>
     <body>
         <header>
+
+            <!-- logo: -->
+
             <div class="imagen-contenedor" id="logo">
                 <img src="/imagenes/logo.png" alt="logo">
                 
             </div>
+
+            <!-- texto animado: -->
+
+                <div class="contenedor-texto">
+                    
+                    <h2 class="titulo">Mis Lenguajes son: <br> <span class="typed"></span></h2>
+                
+                    <a href="https://walink.co/8ae4f0" class="btn-link activo">Whatsap</a>
+                    <a href="#ancla-contacto" class="btn-link">Contactame</a>
+                </div>
+
+            
+
             <a name="ancla-inicio"></a>
+            
+            <!-- barra de navegacion: -->
             
             <div id="navegador">
                 <ul>
@@ -32,7 +50,7 @@
 
             <div class="informacion-contenedor">
                 <div class="imagen-contenedor" id="foto">
-                    <img src="/imagenes/foto" alt="mi foto">
+                    <img src="/imagenes/foto2.jpg" alt="mi foto">
 
                 </div>
 
@@ -59,7 +77,7 @@
                         <li>colaboracion con equipos</li>
                         <li>resolucion de problemas</li>
                         <li>codificacion eficaz</li>
-                        <li>desarrollo y presesntacion</li>
+                        <li>desarrollo y presentacion</li>
                     </ul>
                     <ul>Desarrollo de software
                         <li>trabaje con exito a nivel independiente</li>
@@ -68,22 +86,19 @@
                         <li>implementacion y actualizacion de modulos</li>
                     </ul>
                 </div>
-
-                
-            
+  
             </div>
-          
-            
-            
+           
 
         </section>
-        <main>
+    <main>
             <p>
                 <a name="ancla-acerca"></a>
                 <strong>Acerca de mi:</strong>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste officia perspiciatis quia quibusdam magni quisquam cupiditate nisi iure, accusantium harum consequatur? Autem dolorem reprehenderit aperiam quisquam tenetur enim repellendus aliquid?
             </p>
 
+            <!-- enlaces redes -->
             <ul class="social-icons">
                 <li>
                     <a href="https://www.linkedin.com/feed/" target="_blank" class="social-icon" id="linkedin">
@@ -113,36 +128,62 @@
 
             </ul>
 
+            <!-- informacion de contacto -->
+
             <div id="informacion-contacto">
                 <a name="ancla-contacto"></a>
                 <h2>Informacion de contacto</h2>
                 <h4>email: nelson.johnson@example.com</h4>
-                <h4>telefono: (944) 260-2543</h4>
+                <h4>telefono: (3794)917721</h4>
             </div>
             <a href="#ancla-inicio">Inicio</a>
 
+     
 
-<section class="form-contact">
+    <!-- formulario de contacto: -->
+    <section class="form-contact">
     
-    <form action="" class="contact" method="POST">
-      <label for="nombres">Nombres</label>
-      <input type="text" name="nombres" id="nombres">
+        <form action="" class="contact" method="POST">
+            <label for="nombres">Nombres</label>
+            <input type="text" name="nombres" id="nombres">
 
-      <label for="correo">Correo</label>
-      <input type="text" name="correo" id="correo">
+            <label for="correo">Correo</label>
+            <input type="text" name="correo" id="correo">
 
-      <label for="nombres">Celular</label>
-      <input type="text" name="celular" id="celular">
+            <label for="nombres">Celular</label>
+            <input type="text" name="celular" id="celular">
 
-      <label for="mensaje">Mensaje</label>
-      <textarea name="mensaje" id="mensaje"></textarea>
-      <input type="submit" value="Enviar">
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje"></textarea>
+            <input type="submit" value="Enviar">
 
 
-    </form>
+        </form>
   </section>
+
+
+  <!-- mostrar mas informacion -->
+    <div>
+
+        <h2>Quieres mas informacion?</h2>
+
+        <button type="button" onclick="return aparecer()">Haz Click!</button>
+
+        <div id="demo">
+        
+        <p>Algunas imagenes</p>
+        <img src="/imagenes/estilos-de-páginas-web5.jpeg" alt="estilos">
+        <img src="/imagenes/diseno-de-paginas-web-para-pymes-se-esta-perdiendo-lo-basico.jpg" alt="imagen-pagina">
                
-        </main>
+        </div>
+
+    </div>
+
+</main>
+
+        <!-- scripts: -->
+     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+     <script src="./js/main2.js"></script>
         
     </body>
 </html>
