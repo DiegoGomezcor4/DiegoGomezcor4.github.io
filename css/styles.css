@@ -308,3 +308,12 @@ main .social-icons #youtube {
     display: none;
 }
 
+/* estilos de mas informacion */
+
+.mas-info {
+    width: 100%;
+}
+
+.imagen-final {
+    width: 100%;
+}
