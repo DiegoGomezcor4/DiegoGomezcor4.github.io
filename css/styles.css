@@ -301,6 +301,7 @@ main .social-icons #youtube {
 .btn-link.activo {
    color: #fff;
    background: #25D366;
+   font-size: 18px;
 }
 
 /* boton de mas informacion */
