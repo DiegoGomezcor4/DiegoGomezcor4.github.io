@@ -210,11 +210,11 @@ main .social-icons #youtube {
 /* estilos del formulario */
 
 .form-contact {
-    position:relative;
+    position:static;
     background: #FFF;
     width: 400px;
     position: absolute;
-    top: 700px;
+    top: 100%;
     left: 55%;
     box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
   }
